@@ -1,0 +1,19 @@
+{
+    "name": "Twitter Views Remover",
+    "description": "Remove the number of views on tweets",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+      "128": "icon-128.png"
+    },
+    "content_scripts": [
+        {
+          "js": [
+            "content.js"
+          ],
+          "matches": [
+            "https://twitter.com/*"
+          ]
+        }
+      ]
+}
